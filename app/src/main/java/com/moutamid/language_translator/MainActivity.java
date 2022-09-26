@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
         privacy_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/document/d/e/2PACX-1vRtdwIcJq9eLv-6mf_P45-GdVP8jabHlxBJC6M7LCqGFTgG9E3O4pzEVoQZE80bCYaxm2YyHvfz8J8F/pub"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/document/d/e/2PACX-1vRKT3jR0CmTe-s8nBbpruhE3Sglqcuiu1En8HqL0nPfSPA17tYB8X812M4j8yU7rvfn71F3aubdpbe5/pub"));
                 startActivity(browserIntent);
             }
         });
